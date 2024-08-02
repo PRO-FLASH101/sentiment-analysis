@@ -12,6 +12,7 @@ app = FastAPI()
 class RequestModel(BaseModel):
     input: str
 
+
 # Define the POST endpoint for sentiment analysis
 @app.post("/sentiment")
 def get_response(request: RequestModel):
