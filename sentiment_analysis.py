@@ -20,3 +20,4 @@ def get_response(request: RequestModel):
     label = response[0]["label"]
     score = response[0]["score"]
     return {"input": prompt, "label": label, "score": score}
+    
